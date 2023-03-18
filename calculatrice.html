@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="calculatrice.css">
+    <script src="calculatrice.js"></script>
+  </head>
+  <body>
+    <div id="calculatrice">
+      <input type="text" id="resultat" disabled>
+      <button onclick="ajouterChiffre(7)">7</button>
+      <button onclick="ajouterChiffre(8)">8</button>
+      <button onclick="ajouterChiffre(9)">9</button>
+      <button onclick="ajouterOperateur('/')">/</button>
+      <br>
+      <button onclick="ajouterChiffre(4)">4</button>
+      <button onclick="ajouterChiffre(5)">5</button>
+      <button onclick="ajouterChiffre(6)">6</button>
+      <button onclick="ajouterOperateur('*')">*</button>
+      <br>
+      <button onclick="ajouterChiffre(1)">1</button>
+      <button onclick="ajouterChiffre(2)">2</button>
+      <button onclick="ajouterChiffre(3)">3</button>
+      <button onclick="ajouterOperateur('-')">-</button>
+      <br>
+      <button onclick="ajouterChiffre(0)">0</button>
+      <button onclick="effacer()">C</button>
+      <button onclick="calculer()">=</button>
+      <button onclick="ajouterOperateur('+')">+</button>
+    </div>
+  </body>
+</html>

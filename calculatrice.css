@@ -1,0 +1,42 @@
+#calculatrice {
+    width: 350px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: rgb(17, 15, 55);
+  }
+  
+  #resultat {
+    width: 95%;
+    height: 60px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    margin: 12px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background: linear-gradient(cyan 0%, blue 100%);
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  
